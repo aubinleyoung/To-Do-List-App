@@ -1,1 +1,227 @@
-# To-Do-List-App
+ <a name="readme-top"></a>
+![](https://img.shields.io/badge/Microverse-blueviolet)
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [To-Do-List-App] <a name="about-project"></a>
+
+**[To-Do-List-App]** To-do list  is an app created to help you orginize your daily activities by keeping them listed that you can consult whenever you want, with a feature of marking them as complete and drag & drop.
+
+## 🛠 Built With <a name="built-with"></a>
+- **[Html]**
+- **[Css]**
+- **[JavaScript]**
+- **[webpack]**
+- **[npm]**
+  
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Adding_a_new_item]**
+- **[Removing_a_selected_item]**
+- **[Marking_a_selected_item_as_complete]**
+- **[Removing_all_items_marked_as_complete_at_once]**
+- **[Reordering_a_selected_item]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo Link](Not yet available)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+You can have a copy of this repo run on your local machine by just directly cloning it.
+
+To get a local copy up and running follow these simple example steps.
+1. Download the `Zip` or `(git clone)[https://github.com/aubinleyoung/To-Do-List-App.git]`
+2. `cd To-Do-List-App`
+3. Then open in your browser by using `live server`
+
+## Test
+
+For tracking linter errors locally you need to follow these steps:
+
+- After cloning the project you need to run this command
+  > npm install
+   `This command will download all the dependencies of the project`
+
+- For tracking the linter errors in HTML file run:
+  > npx hint .
+
+- For tracking the linter errors in CSS file run:
+  > npx stylelint "**/*.{css,scss}"
+
+  - And For tracking the linter errors in JavaScript file run:
+  > npx eslint .
+
+### Prerequisites
+
+- Node.js
+- npm
+- vscode(or else)
+
+To get the output of our project make sure you have google Chrome, Mozila or any other browser installed.
+
+### Install 
+
+> In order to install this project please go through the following steps:
+
+1. - [ ] Open the `Terminal`
+2. - [ ] Navigate to the directory where you want to add this repository
+3. - [ ] Run `git clone https://github.com/aubinleyoung/To-Do-List-App.git`
+4. - [ ] Run `npm install` to install the necessary modules
+5. - [ ] Run `npm start`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Aubin SIMPEZE**
+
+- GitHub: [@githubhandle](https://github.com/aubinleyoung)
+- Twitter: [@twitterhandle](https://twitter.com/SimpezeAubin)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aubin-simpeze-7a5b7a220/)
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[More_animations]**
+- [ ] **[More_styles]**
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/aubinleyoung/To-Do-List-App/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Hat tip to [Microvers](www.microverse.org)  and all the staff
+- Thanks to My coding Partners 
+- Thanks to My Morning-session-group and Standup-team Partners and
+- Thanks to Code Reviewers
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ v# To-Do-list
+
+> ". I'm building this To-do list with Javascript (ES6) and Webpack.
+
+
+![gh-pages](https://user-images.githubusercontent.com/57408419/160555220-8a6826dc-caa9-4a84-9bc6-329497b76105.jpg)
+
+## Live demo
+
+ click [here](https://joel-kalema.github.io/To-Do-list/)!
+
+## Getting Started
+
+## Authors
+
+👤 **JOEL KALEMA**
+
+- GitHub: [@joel-kalema](https://github.com/joel-kalema)
+- Twitter: [@JoelJklm](https://www.linkedin.com/in/joel-kalema-30518a230/)
+- LinkedIn: [joel kalema](https://twitter.com/JoelJklm)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
