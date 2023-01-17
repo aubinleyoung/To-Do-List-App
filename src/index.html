@@ -3,12 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <title>Wbpack Exercise</title>
   </head>
-<section>
-  
-</section>
+ 
   <body>
-    <h1>Hello webpack!</h1>
+
+    <section id="todolist-app-section">
+      <div class="header">
+        <h1>Today's To Do</h1>
+        <i class="fa fa-refresh" aria-hidden="true"></i>
+      </div>
+      <form class="form">
+        <input
+          autocomplete="off"
+          type="text"
+          id="task"
+          class="inputs"
+          placeholder="Added to your list..."
+        />
+        <button type="submit" class="add">
+          <i class="fa fa-sign-in" aria-hidden="true"></i>
+        </button>
+      </form>
+  
+      <div class=".new-tasks-container"></div>
+  
+      <button class="remouveAll">Clear all completed</button>
+    </section>
+  <script src="index.js" type="module"></script>
   </body>
 </html>

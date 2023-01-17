@@ -122,6 +122,7 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 ## 🔭 Future Features <a name="future-features"></a>
 
 
+- [ ] **[Drag_and_drop_sot]**
 - [ ] **[More_animations]**
 - [ ] **[More_styles]**
 

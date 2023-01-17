@@ -1,13 +1,27 @@
-import _ from 'lodash';
+// import _ from 'lodash';
 import './style.css';
- 
-function component() {
-  const element = document.createElement('div');
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+export default class TodoList {
+  constructor() {
+    this.tasks = [];
+  }
 
-  return element;
+  addTask = (description) => {
+    const completed = false;
+    const id = this.tasks.length + 1;
+    const task = {
+      id,
+      description,
+      completed,
+    };
+    this.tasks.push(task);
+  }
+
+  removeList = (id) => {
+    this.tasks.forEach((task) => {
+      if (task.id === id) {
+        this.tasks.splice(this.tasks.indexOf(task), 1);
+      }
+    });
+  }
 }
-
-document.body.appendChild(component());
