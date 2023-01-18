@@ -6,8 +6,15 @@ import TodoList from './modules/todolist.js';
 const list = document.querySelector('.lists-of-tasks');
 const addTodo = document.querySelector('.form');
 const descript = document.querySelector('#title');
+const remoTasks = document.querySelector('.remouveAll');
 
 const todoList = new TodoList();
+
+remoTasks.addEventListener('click', () => {
+  todoList.cleanCompleted();
+  todoList.setStorage();
+  todoList.displayToDo(list);
+});
 
 addTodo.addEventListener('submit', (e) => {
   e.preventDefault();
