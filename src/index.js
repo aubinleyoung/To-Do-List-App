@@ -1,27 +1,41 @@
 // import _ from 'lodash';
 import './style.css';
 
-export default class TodoList {
-  constructor() {
-    this.tasks = [];
-  }
+const list = document.querySelector('.lists-of-tasks');
 
-  addTask = (description) => {
-    const completed = false;
-    const id = this.tasks.length + 1;
-    const task = {
-      id,
-      description,
-      completed,
-    };
-    this.tasks.push(task);
-  }
-
-  removeList = (id) => {
-    this.tasks.forEach((task) => {
-      if (task.id === id) {
-        this.tasks.splice(this.tasks.indexOf(task), 1);
-      }
-    });
-  }
-}
+const tasks = [
+  {
+    description: 'Eat food',
+    completed: true,
+    index: 1,
+  },
+  {
+    description: 'Play game',
+    completed: false,
+    index: 2,
+  },
+  {
+    description: 'Work on my project',
+    completed: false,
+    index: 3,
+  },
+];
+const displayToDo = (tasks) => {
+  tasks.forEach((task) => {
+    const li = `<div id="${task.id}" class="list">
+    <input
+      type="checkbox"
+      id="${task.id}"
+      name="task"
+      value="task"
+      ${task.completed ? 'checked' : ''}
+      class="checkbox"
+    />
+    <input
+      type="text" id="${task.id}" class="text-area" name="task" value="${task.description}" />
+    <button class="delete">Delete</button>
+  </div>`;
+    list.innerHTML += li;
+  });
+};
+displayToDo(tasks);

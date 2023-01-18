@@ -9,19 +9,21 @@ body {
   height: 100vh;
   margin: 0;
   display: flex;
-  font-family: 'Poppins', sans-serif;
-  padding: 50px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
   min-height: 100vh;
 }
 
 #todolist-app-section {
-  align-self: center;
   width: 50%;
   height: 10vh;
   margin: auto;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.445);
+  position: absolute;
+  top: 50px;
 }
 
 .header {
@@ -91,7 +93,8 @@ form button {
   width: 14%;
   border-radius: 15px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
-  background-color: rgb(241, 111, 139);
+  background-color: black;
+  color: white;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
