@@ -40,41 +40,7 @@ export default class TodoList {
     </div>`;
       list.innerHTML += li;
     });
-    const checkbox = document.querySelectorAll('.checkbox');
-
-    checkbox.forEach((check) => {
-      check.addEventListener('change', () => {
-        if (check.checked) {
-          check.parentElement.classList.add('complete');
-          this.tasks = this.tasks.map((task) => {
-            if (task.id === parseInt(check.parentElement.id, 10)) {
-              task.completed = check.checked;
-            }
-            return task;
-          });
-          this.setStorage();
-        } else {
-          check.parentElement.classList.remove('complete');
-          this.tasks = this.tasks.map((task) => {
-            if (task.id === parseInt(check.parentElement.id, 10)) {
-              task.completed = false;
-            }
-            return task;
-          });
-          this.setStorage();
-        }
-      });
-    });
-
-    const textArea = document.querySelectorAll('.text-area');
-    textArea.forEach((area) => {
-      area.addEventListener('change', () => {
-        const result = this.tasks.filter((task) => task.id === Number(area.id));
-        this.tasks[result[0].id - 1].description = area.value;
-        this.setStorage();
-      });
-    });
-  }
+   
 
   resetIndex = () => {
     let initialIndex = 1;

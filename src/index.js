@@ -6,15 +6,7 @@ import TodoList from './modules/todolist.js';
 const list = document.querySelector('.lists-of-tasks');
 const addTodo = document.querySelector('.form');
 const descript = document.querySelector('#title');
-const remoTasks = document.querySelector('.remouveAll');
-
 const todoList = new TodoList();
-
-remoTasks.addEventListener('click', () => {
-  todoList.cleanCompleted();
-  todoList.setStorage();
-  todoList.displayToDo(list);
-});
 
 addTodo.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -29,7 +21,7 @@ addTodo.addEventListener('submit', (e) => {
 
 document.addEventListener('click', (e) => {
   if (e.target && e.target.classList.contains('delete')) {
-    const id = parseInt(e.target.parentElement.id, 10);
+   const id = parseInt(e.target.parentElement.id, 10);
     todoList.removeList(id);
     todoList.resetIndex();
     todoList.setStorage();
