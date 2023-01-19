@@ -121,7 +121,7 @@ input {
   font-style: italic;
 }
 
-/* #TodoList {
+#TodoList {
   width: 5%;
 }
 
@@ -136,4 +136,4 @@ input {
 
 .complete .text-area {
   text-decoration: line-through;
-} */
+}
