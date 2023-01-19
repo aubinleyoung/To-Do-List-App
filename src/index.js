@@ -15,7 +15,6 @@ remoTasks.addEventListener('click', () => {
   todoList.setStorage();
   todoList.displayToDo(list);
 });
-
 addTodo.addEventListener('submit', (e) => {
   e.preventDefault();
   if (descript.value.trim()) {
