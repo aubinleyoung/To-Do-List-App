@@ -66,6 +66,8 @@ class TodoList {
       });
     });
 
+    // A function for editing the task description.
+
     const textArea = document.querySelectorAll('.text-area');
     textArea.forEach((area) => {
       area.addEventListener('change', () => {
@@ -83,12 +85,14 @@ class TodoList {
       initialIndex += 1;
     });
   }
+  // A function for updating an item's 'completed' status.
 
   showCompleted = () => {
     this.tasks.forEach((task) => {
       task.completed = true;
     });
   }
+  // The "Clear all completed" function.
 
   cleanCompleted = () => {
     this.tasks = this.tasks.filter((task) => task.completed === false);
