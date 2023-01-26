@@ -42,7 +42,6 @@ It uses the DOM API to interact with the HTML elements, and it uses local storag
 - **[Marking_a_selected_item_as_complete]**
 - **[Removing_all_items_marked_as_complete_at_once]**
 - **[Reordering_a_selected_item]**
-- **[Testing_add_and_remove_function_using_jest_framwork]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -115,7 +114,7 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 - Twitter: [@twitterhandle](https://twitter.com/SimpezeAubin)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aubin-simpeze-7a5b7a220/)
 
-👤 **shaheryar abid**
+👤 **shaheryar Abid**
 
 - GitHub: [@githubhandle](https://github.com/Shaheryar0054)
 - Twitter: [@twitterhandle](@sharyar0310)
