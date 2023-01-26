@@ -1,6 +1,6 @@
-const TodoList = require('./todolist')
+const TodoList = require('./todolist.js');
 
-//Add
+// Add
 
 describe('addTask', () => {
   it('should add a task to the list', () => {
@@ -15,7 +15,7 @@ describe('addTask', () => {
   });
 });
 
-//Remove
+// Remove
 
 describe('removeTask', () => {
   it('should remove a task from the list', () => {
