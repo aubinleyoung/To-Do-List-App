@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1674737477041" clover="3.2.0">
-  <project timestamp="1674737477042" name="All files">
+<coverage generated="1674740622852" clover="3.2.0">
+  <project timestamp="1674740622852" name="All files">
     <metrics statements="53" coveredstatements="19" conditionals="12" coveredconditionals="1" methods="21" coveredmethods="8" elements="86" coveredelements="28" complexity="0" loc="53" ncloc="53" packages="1" files="1" classes="1"/>
-    <file name="todolist.js" path="C:\Users\Hp\Documents\Microverse-project\Module2\To-Do-List-App\src\modules\todolist.js">
+    <file name="todolist.js" path="C:\Users\right\OneDrive\Desktop\To-Do-List-App-3\src\modules\todolist.js">
       <metrics statements="53" coveredstatements="19" conditionals="12" coveredconditionals="1" methods="21" coveredmethods="8"/>
       <line num="3" count="5" type="stmt"/>
       <line num="6" count="5" type="stmt"/>
