@@ -1,4 +1,4 @@
-export default class TodoList {
+class TodoList {
   constructor() {
     this.tasks = [];
   }
@@ -105,3 +105,4 @@ export default class TodoList {
     }
   };
 }
+module.exports = TodoList;

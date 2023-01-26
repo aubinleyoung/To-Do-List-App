@@ -21,7 +21,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To-Do-List-App] <a name="about-project"></a>
+# 📖 [To-Do-List-App-project] <a name="about-project"></a>
 
 **[To-Do-List-App]** To-do list  is is a JavaScript application that implements a to-do list created to help you orginize your daily activities by keeping them listed that you can consult whenever you want, with a feature of add, remove, and mark tasks as completed.
 It uses the DOM API to interact with the HTML elements, and it uses local storage to save the tasks.
@@ -113,6 +113,12 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 - GitHub: [@githubhandle](https://github.com/aubinleyoung)
 - Twitter: [@twitterhandle](https://twitter.com/SimpezeAubin)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aubin-simpeze-7a5b7a220/)
+
+👤 **shaheryar Abid**
+
+- GitHub: [@githubhandle](https://github.com/Shaheryar0054)
+- Twitter: [@twitterhandle](@sharyar0310)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shaheryar-abid-8758121b3/)
 
 
 
