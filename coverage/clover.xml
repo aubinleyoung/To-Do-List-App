@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1674740622852" clover="3.2.0">
-  <project timestamp="1674740622852" name="All files">
+<coverage generated="1674742448719" clover="3.2.0">
+  <project timestamp="1674742448719" name="All files">
     <metrics statements="53" coveredstatements="19" conditionals="12" coveredconditionals="1" methods="21" coveredmethods="8" elements="86" coveredelements="28" complexity="0" loc="53" ncloc="53" packages="1" files="1" classes="1"/>
     <file name="todolist.js" path="C:\Users\right\OneDrive\Desktop\To-Do-List-App-3\src\modules\todolist.js">
       <metrics statements="53" coveredstatements="19" conditionals="12" coveredconditionals="1" methods="21" coveredmethods="8"/>
